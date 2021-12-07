@@ -252,7 +252,7 @@ public class TXNProcessor {
         } else {
             /*Suspend By 1 minute*/
             updateTriageData = "UPDATE TRIAGE SET "
-                    + "TRIAGE_DT_TIME = TRIAGE_DT_TIME + (1/1440) "
+                    + "TRIAGE_DT_TIME = TRIAGE_DT_TIME + (3/1440) "
                     + "WHERE TRIAGE_ID = '" + triageId + "'";
         }
 
